@@ -1,6 +1,12 @@
 import 'Entroliso.dart';
+import 'Arrogante.dart';
+import 'Sienes.dart';
+
 void main() {
-// Make a Person named Entroliso, age 19
-var Entroliso = Entroliso('Entroliso', 19);
-Entroliso.sayHello(); // Prints: Hello! I am Entroliso and I am 19
-years old.
+  var person1 = Person('Entroliso', 19);
+  var person2 = Person('Arrogante', 19);
+  var person3 = Person('Sienes', 19);
+  
+  person1.sayHello(); // Output: Hello! I am Entroliso and I am 19 years old.
+  person2.sayHello(); // Output: Hello! I am Arrogante and I am 19 years old.
+  person3.sayHello(); // Output: Hello! I am Sienes and I am 19 years old.
