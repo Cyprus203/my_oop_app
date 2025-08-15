@@ -1,10 +1,15 @@
- class Person {
+class Person {
+  String name;
+  int age;
 
-String name;Entroliso
-int age;19
-  
-     Person(this.Entroliso, this.19);
-     void sayHello() {
+  Person(this.name, this.age);
+
+  void sayHello() {
     print('Hello! I am $name and I am $age years old.');
-    }
+  }
+}
+
+void main() {
+  var person = Person('Entroliso',19);
+  person.sayHello();
 }
